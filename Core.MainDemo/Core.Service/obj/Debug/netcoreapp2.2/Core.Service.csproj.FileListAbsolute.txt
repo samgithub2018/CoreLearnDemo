@@ -1,0 +1,12 @@
+E:\Live\29.Core\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Service.deps.json
+E:\Live\29.Core\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Service.dll
+E:\Live\29.Core\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Service.pdb
+E:\Live\29.Core\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Interface.dll
+E:\Live\29.Core\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Interface.pdb
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csprojAssemblyReference.cache
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csproj.CoreCompileInputs.cache
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.AssemblyInfoInputs.cache
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.AssemblyInfo.cs
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csproj.CopyComplete
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.dll
+E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.pdb

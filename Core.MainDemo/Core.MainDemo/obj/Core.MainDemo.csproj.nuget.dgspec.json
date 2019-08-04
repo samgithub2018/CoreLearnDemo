@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj": {}
+  },
+  "projects": {
+    "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+        "projectName": "Core.Interface",
+        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+        "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj",
+        "projectName": "Core.MainDemo",
+        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj",
+        "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+                "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj"
+              },
+              "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.11, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj",
+        "projectName": "Core.Service",
+        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj",
+        "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+                "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
