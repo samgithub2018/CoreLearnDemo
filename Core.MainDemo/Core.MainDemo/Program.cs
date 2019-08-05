@@ -38,6 +38,13 @@ namespace Core.MainDemo
     ///   Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
     /// 2.通过构造函数注入，请看HomeController 示例
     /// 
+    /// 
+    /// autofac容器扩展
+    /// 引入  
+    /// Autofac
+    /// Autofac.Extensions.DependencyInjec
+    /// 请看【333】
+    /// 
     /// </summary>
     public class Program
     {

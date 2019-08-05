@@ -33,3 +33,4 @@ E:\Live\29.Core\Core.MainDemo\Core.MainDemo\bin\Debug\netcoreapp2.2\Core.Interfa
 E:\Live\29.Core\Core.MainDemo\Core.MainDemo\bin\Debug\netcoreapp2.2\Core.Service.dll
 E:\Live\29.Core\Core.MainDemo\Core.MainDemo\bin\Debug\netcoreapp2.2\Core.Interface.pdb
 E:\Live\29.Core\Core.MainDemo\Core.MainDemo\bin\Debug\netcoreapp2.2\Core.Service.pdb
+E:\Live\29.Core\Core.MainDemo\Core.MainDemo\obj\Debug\netcoreapp2.2\Razor\Views\Autofac\Index.g.cshtml.cs
