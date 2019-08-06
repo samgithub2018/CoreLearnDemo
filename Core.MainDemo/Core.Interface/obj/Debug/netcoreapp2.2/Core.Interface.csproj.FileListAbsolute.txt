@@ -7,3 +7,12 @@ E:\Live\29.Core\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interf
 E:\Live\29.Core\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.AssemblyInfo.cs
 E:\Live\29.Core\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.dll
 E:\Live\29.Core\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.pdb
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\bin\Debug\netcoreapp2.2\Core.Interface.deps.json
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\bin\Debug\netcoreapp2.2\Core.Interface.dll
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\bin\Debug\netcoreapp2.2\Core.Interface.pdb
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.csprojAssemblyReference.cache
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.csproj.CoreCompileInputs.cache
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.AssemblyInfoInputs.cache
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.AssemblyInfo.cs
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.dll
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Interface\obj\Debug\netcoreapp2.2\Core.Interface.pdb

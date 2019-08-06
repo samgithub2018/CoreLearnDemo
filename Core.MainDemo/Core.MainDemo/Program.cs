@@ -42,8 +42,10 @@ namespace Core.MainDemo
     /// autofac容器扩展
     /// 引入  
     /// Autofac
+    /// Autofac.Extras.DynamicProxy
     /// Autofac.Extensions.DependencyInjec
     /// 请看【333】
+    /// AOP实现请看：CustomAutofacAOP
     /// 
     /// </summary>
     public class Program

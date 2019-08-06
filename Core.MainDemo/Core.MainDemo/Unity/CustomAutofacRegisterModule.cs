@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Autofac.Extras.DynamicProxy;
 using Core.Interface;
 using Core.Service;
 using System;
@@ -16,9 +17,16 @@ namespace Core.MainDemo.Unity
         /// <param name="builder"></param>
         protected override void Load(ContainerBuilder builder)
         {
+            //注册AOP
+            builder.Register(s => new CustomAutofacAOP());
+            builder.RegisterType<ClassA>().As<InterfaceA>().EnableInterfaceInterceptors();
+
+            //注册服务
             builder.RegisterType<Class1>().As<Interface1>();
             builder.RegisterType<Class2>().As<Interface2>();
             builder.RegisterType<Class3>().As<Interface3>();
+
+            
         }
 
     }

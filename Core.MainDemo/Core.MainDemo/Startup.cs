@@ -47,6 +47,7 @@ namespace Core.MainDemo
             //2.注册服务
             containerBuilder.RegisterModule<CustomAutofacRegisterModule>();
             //builder.RegisterType<Class1>().As<Interface1>();也可以这样注册，但是放到一个类统一注册比较规范
+            
 
             //3.容器替换
             containerBuilder.Populate(services);

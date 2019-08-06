@@ -10,3 +10,15 @@ E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.
 E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csproj.CopyComplete
 E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.dll
 E:\Live\29.Core\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.pdb
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Service.deps.json
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Service.dll
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Service.pdb
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Interface.dll
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\bin\Debug\netcoreapp2.2\Core.Interface.pdb
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csprojAssemblyReference.cache
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csproj.CoreCompileInputs.cache
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.AssemblyInfoInputs.cache
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.AssemblyInfo.cs
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.csproj.CopyComplete
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.dll
+C:\Projects\CoreLearmDemo\Core.MainDemo\Core.Service\obj\Debug\netcoreapp2.2\Core.Service.pdb
