@@ -9,6 +9,7 @@ using Autofac;
 using Core.MainDemo.Unity;
 using Autofac.Extensions.DependencyInjection;
 using System;
+using Core.MainDemo.Filters;
 
 namespace Core.MainDemo
 {
@@ -37,7 +38,13 @@ namespace Core.MainDemo
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSession();
+            services.AddMvc(_ =>
+            {
+                //_.Filters.Add<CustomExceptionFilterAttribute>(); //不知道为什么这个会失败
+                _.Filters.Add<CustomIActionFilterAttribute>();
+                _.Filters.Add<CustomActionFilterAttribute>();
+            }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             #region autofac容器扩展【333】
 
@@ -47,7 +54,7 @@ namespace Core.MainDemo
             //2.注册服务
             containerBuilder.RegisterModule<CustomAutofacRegisterModule>();
             //builder.RegisterType<Class1>().As<Interface1>();也可以这样注册，但是放到一个类统一注册比较规范
-            
+
 
             //3.容器替换
             containerBuilder.Populate(services);

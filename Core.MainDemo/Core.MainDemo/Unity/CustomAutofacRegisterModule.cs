@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using Autofac.Extras.DynamicProxy;
 using Core.Interface;
+using Core.MainDemo.Filters;
 using Core.Service;
 using System;
 using System.Collections.Generic;
@@ -21,12 +22,13 @@ namespace Core.MainDemo.Unity
             builder.Register(s => new CustomAutofacAOP());
             builder.RegisterType<ClassA>().As<InterfaceA>().EnableInterfaceInterceptors();
 
+
             //注册服务
             builder.RegisterType<Class1>().As<Interface1>();
             builder.RegisterType<Class2>().As<Interface2>();
             builder.RegisterType<Class3>().As<Interface3>();
 
-            
+
         }
 
     }

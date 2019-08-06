@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {}
+    "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {}
   },
   "projects": {
-    "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+    "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+        "projectUniqueName": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
         "projectName": "Core.Interface",
-        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+        "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\obj\\",
+        "outputPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

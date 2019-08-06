@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Core.MainDemo.Models;
 using Microsoft.Extensions.Logging;
+using Core.MainDemo.Filters;
 
 namespace Core.MainDemo.Controllers
 {
@@ -19,8 +20,10 @@ namespace Core.MainDemo.Controllers
             this._logger = logger;
         }
 
+        //[ServiceFilter(typeof(CustomExceptionFilterAttribute))]
         public IActionResult Index()
         {
+           // throw new Exception("自定义错误!");
             _logger.LogError("this HomeController");
             return View();
         }

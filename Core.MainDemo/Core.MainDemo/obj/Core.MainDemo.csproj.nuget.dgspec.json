@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj": {}
+    "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj": {}
   },
   "projects": {
-    "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+    "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+        "projectUniqueName": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
         "projectName": "Core.Interface",
-        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+        "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\obj\\",
+        "outputPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj": {
+    "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj",
+        "projectUniqueName": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj",
         "projectName": "Core.MainDemo",
-        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj",
+        "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.MainDemo\\Core.MainDemo.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.MainDemo\\obj\\",
+        "outputPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.MainDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,11 +82,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
-                "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj"
+              "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+                "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj"
               },
-              "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj": {
-                "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj"
+              "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Service\\Core.Service.csproj"
               }
             }
           }
@@ -107,6 +107,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[4.4.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
@@ -150,14 +154,14 @@
         }
       }
     },
-    "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj": {
+    "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Service\\Core.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj",
+        "projectUniqueName": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Service\\Core.Service.csproj",
         "projectName": "Core.Service",
-        "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\Core.Service.csproj",
+        "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Service\\Core.Service.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Service\\obj\\",
+        "outputPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,8 +180,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
-                "projectPath": "E:\\Live\\29.Core\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj"
+              "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj": {
+                "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj"
               }
             }
           }
