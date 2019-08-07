@@ -47,9 +47,14 @@ namespace Core.MainDemo
     /// 请看【333】
     /// AOP实现请看：CustomAutofacAOP
     /// 
+    /// 
+    /// Filters 扩展注册 请看【123】
+    /// ExceptionFilter没有成功
+    /// 
     /// .Net Framework MVC管道处理模型，Mudoule执行顺序都是固定的，一遍执行过去
     /// .Net Core MVC管道处理模型，中间件（Mudoule）是分块的，由开发员自由拼装起来，组成执行流，顺序是由开发员控制的
     /// 中间件执行顺序还是“俄罗斯套娃”
+    /// 这个没有搞懂，只知道有这个东西，怎么用看不懂R老师的
     /// 
     /// </summary>
     public class Program

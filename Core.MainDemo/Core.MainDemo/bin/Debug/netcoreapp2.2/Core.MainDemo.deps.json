@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "1734c475f4999bb2534730bab536f918d28c3be4"
+    "signature": "ce6fbf61a56ab530e7d9431a753500e25ae3b6e0"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "Core.MainDemo/1.0.0": {
         "dependencies": {
           "Autofac": "4.9.3",
+          "Autofac.Configuration": "4.1.0",
           "Autofac.Extensions.DependencyInjection": "4.4.0",
           "Autofac.Extras.DynamicProxy": "4.5.0",
           "Core.Interface": "1.0.0",
@@ -53,6 +54,21 @@
         },
         "compile": {
           "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
+      "Autofac.Configuration/4.1.0": {
+        "dependencies": {
+          "Autofac": "4.9.3",
+          "Microsoft.Extensions.Configuration": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {}
         }
       },
       "Autofac.Extensions.DependencyInjection/4.4.0": {
@@ -3957,6 +3973,13 @@
       "sha512": "sha512-vEUiP3N+sCRdd6oYXwoJZ9L3iifKEnDtsqajXZDjSol8McSKbag2fJ/yfSc4f2IqwWXRX0/73TRrQjOHsntSIw==",
       "path": "autofac/4.9.3",
       "hashPath": "autofac.4.9.3.nupkg.sha512"
+    },
+    "Autofac.Configuration/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0RBau4Z2V7BYkU3m62cMCOzKjPFakSDQ91aAvLxo/IeafS+2SdRh50B0dVpLYyOfk6JgX63eWvJJXOQ/VT/7Kw==",
+      "path": "autofac.configuration/4.1.0",
+      "hashPath": "autofac.configuration.4.1.0.nupkg.sha512"
     },
     "Autofac.Extensions.DependencyInjection/4.4.0": {
       "type": "package",

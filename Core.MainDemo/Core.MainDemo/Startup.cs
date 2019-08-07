@@ -10,6 +10,8 @@ using Core.MainDemo.Unity;
 using Autofac.Extensions.DependencyInjection;
 using System;
 using Core.MainDemo.Filters;
+using Autofac.Configuration;
+using Core.Interface;
 
 namespace Core.MainDemo
 {
@@ -41,20 +43,30 @@ namespace Core.MainDemo
             services.AddSession();
             services.AddMvc(_ =>
             {
+                //【123】 Filters 扩展注册
                 //_.Filters.Add<CustomExceptionFilterAttribute>(); //不知道为什么这个会失败
+                _.Filters.Add<CustomResultFilterAttribute>();
+                _.Filters.Add<CustomResourceFilterAttribute>();
                 _.Filters.Add<CustomIActionFilterAttribute>();
-                _.Filters.Add<CustomActionFilterAttribute>();
+                //_.Filters.Add<CustomActionFilterAttribute>();
+
             }).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             #region autofac容器扩展【333】
 
             //1.实例一个容器
-            Autofac.ContainerBuilder containerBuilder = new Autofac.ContainerBuilder();
+            Autofac.ContainerBuilder containerBuilder = new ContainerBuilder();
 
-            //2.注册服务
+            //2.通过配置文件注册服务
+            IConfigurationBuilder configuration = new ConfigurationBuilder();
+            configuration.AddJsonFile("Config/autofac.json");
+            IConfigurationRoot rootBuil = configuration.Build();
+            var module = new ConfigurationModule(rootBuil);
+            containerBuilder.RegisterModule(module);
+
+            //2.通过硬代码注册服务
             containerBuilder.RegisterModule<CustomAutofacRegisterModule>();
             //builder.RegisterType<Class1>().As<Interface1>();也可以这样注册，但是放到一个类统一注册比较规范
-
 
             //3.容器替换
             containerBuilder.Populate(services);
@@ -95,7 +107,6 @@ namespace Core.MainDemo
             app.UseHttpsRedirection();//注册https，这个是默认帮注册的，不能删，只能改
             app.UseStaticFiles();//注册seesion
             app.UseCookiePolicy();//注册cookie
-
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

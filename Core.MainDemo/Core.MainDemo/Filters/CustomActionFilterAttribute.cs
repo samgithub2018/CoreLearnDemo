@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.MainDemo.Filters
 {
+    /// <summary>
+    /// 这个filter 被IResultFilter和IActionFilter 【替代】了，在core里面
+    /// </summary>
     public class CustomActionFilterAttribute : ActionFilterAttribute
     {
         /// <summary>

@@ -23,7 +23,7 @@ namespace Core.MainDemo.Controllers
         //[ServiceFilter(typeof(CustomExceptionFilterAttribute))]
         public IActionResult Index()
         {
-           // throw new Exception("自定义错误!");
+            // throw new Exception("自定义错误!");
             _logger.LogError("this HomeController");
             return View();
         }

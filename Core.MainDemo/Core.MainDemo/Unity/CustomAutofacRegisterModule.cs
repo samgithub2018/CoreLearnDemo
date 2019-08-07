@@ -24,7 +24,7 @@ namespace Core.MainDemo.Unity
 
 
             //注册服务
-            builder.RegisterType<Class1>().As<Interface1>();
+            //builder.RegisterType<Class1>().As<Interface1>();
             builder.RegisterType<Class2>().As<Interface2>();
             builder.RegisterType<Class3>().As<Interface3>();
 

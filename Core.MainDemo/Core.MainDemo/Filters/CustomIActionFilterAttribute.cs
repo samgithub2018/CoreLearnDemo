@@ -11,16 +11,21 @@ namespace Core.MainDemo.Filters
 {
     public class CustomIActionFilterAttribute : Attribute, IActionFilter
     {
-        private Logger<CustomIActionFilterAttribute> _logger = null;
+        private ILogger<CustomIActionFilterAttribute> _logger = null;
 
-        //public CustomIActionFilterAttribute(Logger<CustomIActionFilterAttribute> logger)
-        //{
-        //    this._logger = logger;
-        //}
-
-        public CustomIActionFilterAttribute()
+        public CustomIActionFilterAttribute(ILogger<CustomIActionFilterAttribute> logger)
         {
+            this._logger = logger;
+        }
 
+
+        /// <summary>
+        /// action执行前
+        /// </summary>
+        /// <param name="context"></param>
+        public void OnActionExecuting(ActionExecutingContext context)
+        {
+            //context.HttpContext.Response.WriteAsync("**************this OnActionExecuting Method*****************");
         }
 
         /// <summary>
@@ -29,15 +34,8 @@ namespace Core.MainDemo.Filters
         /// <param name="context"></param>
         public void OnActionExecuted(ActionExecutedContext context)
         {
-            context.HttpContext.Response.WriteAsync("**************this OnActionExecuted Method*****************");
+            //context.HttpContext.Response.WriteAsync("**************this OnActionExecuted Method*****************");
         }
-        /// <summary>
-        /// 执行前
-        /// </summary>
-        /// <param name="context"></param>
-        public void OnActionExecuting(ActionExecutingContext context)
-        {
-            context.HttpContext.Response.WriteAsync("**************this OnActionExecuting Method*****************");
-        }
+
     }
 }

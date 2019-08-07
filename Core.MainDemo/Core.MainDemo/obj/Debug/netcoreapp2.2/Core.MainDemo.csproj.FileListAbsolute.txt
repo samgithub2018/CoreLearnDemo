@@ -106,3 +106,6 @@ E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\obj\Debug\netcoreapp2.
 E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\obj\Debug\netcoreapp2.2\Core.MainDemo.RazorTargetAssemblyInfo.cs
 E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\obj\Debug\netcoreapp2.2\Core.MainDemo.Views.pdb
 E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\obj\Debug\netcoreapp2.2\Core.MainDemo.csproj.CopyComplete
+E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\obj\Debug\netcoreapp2.2\Razor\Views\TestAction\Index.g.cshtml.cs
+E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\bin\Debug\netcoreapp2.2\appsettings.json
+E:\Live\29.Core\CoreLearmDemo\Core.MainDemo\Core.MainDemo\bin\Debug\netcoreapp2.2\Config\autofac.json

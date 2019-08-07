@@ -11,6 +11,19 @@
           "lib/netstandard2.0/Autofac.dll": {}
         }
       },
+      "Autofac.Configuration/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.0.1",
+          "Microsoft.Extensions.Configuration": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Configuration.dll": {}
+        }
+      },
       "Autofac.Extensions.DependencyInjection/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -5201,6 +5214,26 @@
         "lib/netstandard2.0/Autofac.dll",
         "lib/netstandard2.0/Autofac.pdb",
         "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "Autofac.Configuration/4.1.0": {
+      "sha512": "0RBau4Z2V7BYkU3m62cMCOzKjPFakSDQ91aAvLxo/IeafS+2SdRh50B0dVpLYyOfk6JgX63eWvJJXOQ/VT/7Kw==",
+      "type": "package",
+      "path": "autofac.configuration/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.configuration.4.1.0.nupkg.sha512",
+        "autofac.configuration.nuspec",
+        "lib/net45/Autofac.Configuration.dll",
+        "lib/net45/Autofac.Configuration.pdb",
+        "lib/net45/Autofac.Configuration.xml",
+        "lib/netstandard1.3/Autofac.Configuration.dll",
+        "lib/netstandard1.3/Autofac.Configuration.pdb",
+        "lib/netstandard1.3/Autofac.Configuration.xml",
+        "lib/netstandard2.0/Autofac.Configuration.dll",
+        "lib/netstandard2.0/Autofac.Configuration.pdb",
+        "lib/netstandard2.0/Autofac.Configuration.xml"
       ]
     },
     "Autofac.Extensions.DependencyInjection/4.4.0": {
@@ -14252,6 +14285,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Autofac >= 4.9.3",
+      "Autofac.Configuration >= 4.1.0",
       "Autofac.Extensions.DependencyInjection >= 4.4.0",
       "Autofac.Extras.DynamicProxy >= 4.5.0",
       "Core.Interface >= 1.0.0",
@@ -14317,6 +14351,10 @@
             "target": "Package",
             "version": "[4.9.3, )"
           },
+          "Autofac.Configuration": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          },
           "Autofac.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[4.4.0, )"
@@ -14360,7 +14398,12 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true

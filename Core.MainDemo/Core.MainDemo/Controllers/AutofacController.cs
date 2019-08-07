@@ -26,6 +26,7 @@ namespace Core.MainDemo.Controllers
         /// <param name="interface3"></param>
         public AutofacController(Interface1 interface1, Interface2 interface2, Interface3 interface3, InterfaceA interfaceA)
         {
+            interface1.Show();//通过配置文件注入的实例
             this._Interface1 = interface1;
             this._Interface2 = interface2;
             this._Interface3 = interface3;
