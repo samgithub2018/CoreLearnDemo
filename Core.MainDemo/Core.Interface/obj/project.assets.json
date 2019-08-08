@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+      "projectUniqueName": "C:\\Projects\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
       "projectName": "Core.Interface",
-      "projectPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
+      "projectPath": "C:\\Projects\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\Core.Interface.csproj",
       "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-      "outputPath": "E:\\Live\\29.Core\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\obj\\",
+      "outputPath": "C:\\Projects\\CoreLearmDemo\\Core.MainDemo\\Core.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -734,12 +734,7 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
         "warn": true

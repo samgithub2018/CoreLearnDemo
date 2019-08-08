@@ -103,6 +103,21 @@ namespace Core.MainDemo
             ILogger<Startup> logger = loggerFactory.CreateLogger<Startup>();
             logger.LogError("thie Startup inir error");
 
+
+            //终结点，没有下一步
+            app.Run(context =>
+            {
+                return context.Response.WriteAsync("Hello World");
+            });
+
+
+            //终结点，没有下一步
+            app.Use(async (context, next) =>
+            {
+                //await next.Invoke(); 没有这个的话，请求到这里就会结束了，所谓的请求终结点
+                await context.Response.WriteAsync("Hello World!");
+            });
+
             //【366】注册服务
             app.UseHttpsRedirection();//注册https，这个是默认帮注册的，不能删，只能改
             app.UseStaticFiles();//注册seesion
